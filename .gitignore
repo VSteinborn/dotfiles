@@ -1,0 +1,6 @@
+# LaTeX Files
+*.nav
+*.snm
+
+# System Files
+.DS_Store
