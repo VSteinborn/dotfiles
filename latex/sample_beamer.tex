@@ -9,7 +9,7 @@
 \frame{\titlepage}
 
 \begin{frame}
-	\frametitle{Simple 2D Graph}
+	\frametitle{Simple 2D Graph \cite{dr_trefor_bazett_how_2022}}
 
 	\begin{center}
 		\begin{tikzpicture}
@@ -31,13 +31,26 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Annotated 2D Graph}
+	\frametitle{Annotated 2D Graph \cite{dr_trefor_bazett_how_2022}}
 
 	\begin{columns}
 		\column{0.3\textwidth}
 		\begin{itemize}
-			\item This is some text for the plot
+			\item Currently using the Metropolis \cite{matthias_vogelgesang_ctan_2017} theme
 		\end{itemize}
+
+		{\metroset{block=fill}
+		\begin{block}{Key Point 1}
+			Block content
+		\end{block}}
+
+		\begin{block}{Key Point 2}
+			Block content
+		\end{block}
+
+		\begin{exampleblock}{Custom Example Block}
+			Block content
+		\end{exampleblock}
 
 		\column{0.7\textwidth}
 		\begin{center}
@@ -67,6 +80,17 @@
 
 		
 	\end{columns}
+\end{frame}
+
+\begin{frame}[standout]
+	Questions?
+\end{frame}
+
+\begin{frame}[allowframebreaks]{References}
+
+	\bibliography{sample_beamer}
+	\bibliographystyle{abbrv}
+  
 \end{frame}
 
 \end{document}

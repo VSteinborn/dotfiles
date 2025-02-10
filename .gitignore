@@ -1,6 +1,7 @@
 # LaTeX Files
 *.nav
 *.snm
+*.bbl
 
 # System Files
 .DS_Store
