@@ -3,5 +3,8 @@
 *.snm
 *.bbl
 
+# mdbook
+docs/book
+
 # System Files
 .DS_Store
