@@ -14,6 +14,6 @@ def check_if_in_test_set(instance_id, train_test_ratio):
 Ensures that the test set remains the same across runs, even after updating the dataset.
 This assumes the identifier remains the same.
 
-Adapted from:
-
-Géron, Aurélien. 2019. Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems. Second edition. Beijing Boston Farnham Sebastopol Tokyo: O’Reilly. ISBN: 978-1-4920-3264-9.
+> Adapted from:
+>
+> Géron, Aurélien. 2019. Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems. Second edition. Beijing Boston Farnham Sebastopol Tokyo: O’Reilly. ISBN: 978-1-4920-3264-9.

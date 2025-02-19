@@ -5,6 +5,7 @@
 # Python
 
 - [Checksums and Train-Test Splits](python/checksum_train_test.md)
+- [High-Level File Operations In Python](python/shutil.md)
 
 # Latex
 
