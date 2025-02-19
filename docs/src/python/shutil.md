@@ -12,7 +12,8 @@ destination = "another/path/to/some/file_that_may_not_exist_yet.txt"
 
 shutil.copy2(source, destination)
 
-# Can move files across file systems https://stackoverflow.com/questions/42392600/oserror-errno-18-invalid-cross-device-link
+# Can move files across file systems
+# https://stackoverflow.com/questions/42392600/oserror-errno-18-invalid-cross-device-link
 shutil.move(source, destination)
 ```
 
