@@ -6,5 +6,9 @@ src = "src"
 title = "VSteinborn Docs"
 
 [output.html]
+default-theme = "rust"
+preferred-dark-theme = "ayu"
 mathjax-support = true
+no-section-label = true
 git-repository-url = "https://github.com/VSteinborn/dotfiles"
+edit-url-template = "https://github.com/VSteinborn/dotfiles/edit/main/docs/{path}"
