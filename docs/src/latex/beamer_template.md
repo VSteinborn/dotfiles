@@ -1,21 +1,21 @@
 # Beamer Template
 
-[Beamer Template PDF](sample_beamer.pdf)
+[Beamer Template PDF](beamer_template/sample_beamer.pdf)
 
 `sample_beamer.tex`:
 
 ```latex
-{{#include sample_beamer.tex}}
+{{#include beamer_template/sample_beamer.tex}}
 ```
 
 `preamble_beamer.tex`:
 
 ```latex
-{{#include preamble_beamer.tex}}
+{{#include beamer_template/preamble_beamer.tex}}
 ```
 
 `sample_beamer.bib`:
 
 ```latex
-{{#include sample_beamer.bib}}
+{{#include beamer_template/sample_beamer.bib}}
 ```
