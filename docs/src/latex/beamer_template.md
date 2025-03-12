@@ -26,8 +26,8 @@
 {{#include beamer_template/makefile}}
 ```
 
-## `.latexmkrc`:
+## `latexmkrc`:
 
 ```latex
-{{#include beamer_template/.latexmkrc}}
+{{#include beamer_template/latexmkrc}}
 ```
