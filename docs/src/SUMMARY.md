@@ -1,6 +1,10 @@
 # Summary
 
-[Introduction](introduction.md)
+[Welcome](welcome.md)
+
+# System
+
+- [Program Installation and Uninstallation](programs.md)
 
 # Python
 

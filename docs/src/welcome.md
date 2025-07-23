@@ -1,4 +1,4 @@
-# Introduction
+# Welcome
 
 Welcome to my personal documentation page.
 
