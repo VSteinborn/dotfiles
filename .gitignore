@@ -3,3 +3,6 @@ docs/book
 
 # System Files
 .DS_Store
+
+# Secrets
+secret.*
