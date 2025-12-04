@@ -1,0 +1,18 @@
+{
+  // Each snippet must have a name and body, but the prefix and description are optional.
+  // The prefix is used to trigger the snippet, but when omitted then the name is used.
+  // Use placeholders like $1, $2 or ${1:defaultValue} to define tab stops.
+  // The $0 determines the final cursor position.
+  // Placeholders with the same value are linked.
+  "URL Link": {
+    "prefix": "link",
+    "body": ["[${1:Display Text}](${2:Link URL})$0"],
+    "description": "Insert a link"
+  },
+
+  "Embed Image": {
+    "prefix": "image",
+    "body": ["![${1:Alt Text}](${2:Image Path})$0"],
+    "description": "Insert an image"
+  }
+}
