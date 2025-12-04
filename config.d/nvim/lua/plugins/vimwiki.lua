@@ -9,12 +9,21 @@ return {
   init = function()
     vim.g.vimwiki_list = {
       {
+        -- [[ Personal Wiki ]]
         -- Here will be the path for your wiki
         path = os.getenv("THELIBRARYPATH"),
         -- The syntax for the wiki
         syntax = "markdown",
         ext = ".md",
       },
+      {
+        -- [[ Docs Wiki ]]
+        path = os.getenv("DOTFILEPATH").."/docs/src/",
+        syntax = "markdown",
+        ext = ".md",
+        -- Index page of wiki
+        index = "SUMMARY"
+       },
     }
     vim.g.vimwiki_ext2syntax = {['.md'] = 'markdown', ['.markdown'] = 'markdown'}
   end,

@@ -4,6 +4,11 @@ if [[ -z "${DOTFILEPATH}" ]]; then
   exit 1
 fi
 
+if [[ -z "${THELIBRARYPATH}" ]]; then
+  echo "ERROR: Environment variable THELIBRARYPATH is unset. Please set THELIBRARYPATH to the path to the vimwiki."
+  exit 1
+fi
+
 # List configuration directories (in the current dotfiles directory)
 # and destination directories (in the program/application file system)
 # All the files in the listed config directories will be read.
