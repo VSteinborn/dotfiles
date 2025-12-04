@@ -8,15 +8,15 @@
 
 # Bash
 
-- [Bash Resources](bash/resources.md)
-- [Recursive Find](bash/recursive_find.md)
+- [Bash Resources](bash_resources.md)
+- [Recursive Find](bash_recursive_find.md)
 
 # Python
 
-- [Checksums and Train-Test Splits](python/checksum_train_test.md)
-- [High-Level File Operations In Python](python/shutil.md)
-- [Documentation Generators](python/documentation_generators.md)
+- [Checksums and Train-Test Splits](python_checksum_train_test.md)
+- [High-Level File Operations In Python](python_shutil.md)
+- [Documentation Generators](python_documentation_generators.md)
 
 # Latex
 
-- [Beamer Template](latex/beamer_template.md)
+- [Beamer Template](latex_beamer_template.md)
