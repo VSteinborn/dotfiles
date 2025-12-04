@@ -1,7 +1,7 @@
 [book]
 authors = ["VSteinborn"]
 language = "en"
-multilingual = false
+# multilingual = false
 src = "src"
 title = "VSteinborn Docs"
 
