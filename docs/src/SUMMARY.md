@@ -6,6 +6,11 @@
 
 - [Program Installation and Uninstallation](programs.md)
 
+# Bash
+
+- [Bash Resources](bash/resources.md)
+- [Recursive Find](bash/recursive_find.md)
+
 # Python
 
 - [Checksums and Train-Test Splits](python/checksum_train_test.md)
