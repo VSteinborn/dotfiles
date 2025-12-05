@@ -1,0 +1,7 @@
+{
+  "For Loop": {
+    "prefix": "for",
+    "body": ["for ${1:item} in ${2:items}:\n    $0"],
+    "description": "For loop"
+  }
+}
