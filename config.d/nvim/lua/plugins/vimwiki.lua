@@ -10,7 +10,7 @@ return {
     vim.g.vimwiki_list = {
       {
         -- [[ Personal Wiki ]]
-	name = "Personal Wiki",
+        name = "Personal Wiki",
         -- Here will be the path for your wiki
         path = os.getenv("THELIBRARYPATH"),
         -- The syntax for the wiki
@@ -19,7 +19,7 @@ return {
       },
       {
         -- [[ Technical Wiki ]]
-	name = "Technical Wiki",
+        name = "Technical Wiki",
         path = os.getenv("DOTFILEPATH").."/docs/src/",
         syntax = "markdown",
         ext = ".md",
@@ -28,7 +28,7 @@ return {
        },
        {
         -- [[ Blog Wiki ]]
-	name = "Blog Wiki",
+        name = "Blog Wiki",
         path = os.getenv("THEBLOGPATH"),
         syntax = "markdown",
         ext = ".md",
