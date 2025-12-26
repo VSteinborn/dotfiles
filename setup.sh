@@ -18,12 +18,14 @@ declare -A config_dict=(
     [nvim-config]="${DOTFILEPATH}/config.d/nvim/lua/config"
     [nvim-plugins]="${DOTFILEPATH}/config.d/nvim/lua/plugins"
     [zed-snippets]="${DOTFILEPATH}/config.d/zed/snippets"
+    [newsboat]="${DOTFILEPATH}/config.d/newsboat"
 )
 declare -A destination_dict=(
     [nvim]="${HOME}/.config/nvim"
     [nvim-config]="${HOME}/.config/nvim/lua/config"
     [nvim-plugins]="${HOME}/.config/nvim/lua/plugins"
     [zed-snippets]="${HOME}/.var/app/dev.zed.Zed/config/zed/snippets"
+    [newsboat]="${HOME}/.newsboat"
 )
 
 # Test if dictionaries set properly
