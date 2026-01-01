@@ -10,6 +10,7 @@
 
 - [Bash Resources](bash_resources.md)
 - [Recursive Find](bash_recursive_find.md)
+- [rsync](rsync.md)
 
 # Python
 
