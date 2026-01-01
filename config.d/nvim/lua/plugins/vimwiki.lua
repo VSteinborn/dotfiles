@@ -36,5 +36,7 @@ return {
        },
     }
     vim.g.vimwiki_ext2syntax = {['.md'] = 'markdown', ['.markdown'] = 'markdown'}
+    -- force vimwiki to only run in the wiki directories in vimwiki_list
+    vim.g.vimwiki_global_ext = 0
   end,
 }
