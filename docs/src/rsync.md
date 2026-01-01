@@ -18,4 +18,6 @@ rsync path/to/source path/to/destination
 ## Note
 - Without a trailing slash on source, a file `destination/source` is created (if not present)
 - With a trailing slash on source, the contents of `source` are copied into `destination` without an intermediate directory created 
+
 [source](https://wiki.archlinux.org/title/Rsync)
+
