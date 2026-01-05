@@ -89,6 +89,7 @@ vim.cmd('packadd! nohlsearch')
 
 -- [[ User specified settings ]]
 vim.cmd.highlight({"Normal", "guibg=none"}) -- Remove background box
+vim.opt.spelllang='en,de,sw,cjk'
 
 -- [[ Plugins ]]
 -- VimWiki Requirements:
