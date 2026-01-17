@@ -10,6 +10,8 @@ bind-key j down
 bind-key k up
 bind-key ENTER open
 bind-key BACKSPACE quit
+bind-key g home
+bind-key G end
 
 ## Max items
 max-items 10
