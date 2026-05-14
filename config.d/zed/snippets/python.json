@@ -3,5 +3,12 @@
     "prefix": "for",
     "body": ["for ${1:item} in ${2:items}:\n    $0"],
     "description": "For loop"
+  },
+
+  "Basic Main block": {
+    "prefix": "maininit",
+    "body": [
+      "def main():\n    ${0:body}\n\nif __name__ == \"__main__\":\n    main()"
+    ]
   }
 }

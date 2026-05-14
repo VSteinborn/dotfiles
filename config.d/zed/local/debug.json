@@ -1,0 +1,12 @@
+[
+  {
+    "label": "Debug native binary",
+    "build": {
+      "command": "source env_var.bash && cc -O0 -pedantic-errors -Wall -Wextra -Wconversion -Wsign-conversion -ggdb -lraylib -lGL -lm -lpthread -ldl -lrt -lX11 $ZED_WORKTREE_ROOT/src/$ZED_FILENAME"
+    },
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "program": "$ZED_WORKTREE_ROOT/a.out",
+    "request": "launch",
+    "adapter": "GDB"
+  }
+]
