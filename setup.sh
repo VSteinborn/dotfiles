@@ -19,6 +19,7 @@ declare -A config_dict=(
     [nvim-plugins]="${DOTFILEPATH}/config.d/nvim/lua/plugins"
     [zed-snippets]="${DOTFILEPATH}/config.d/zed/snippets"
     [newsboat]="${DOTFILEPATH}/config.d/newsboat"
+    [tmux]="${DOTFILEPATH}/config.d/tmux"
 )
 declare -A destination_dict=(
     [nvim]="${HOME}/.config/nvim"
@@ -26,6 +27,7 @@ declare -A destination_dict=(
     [nvim-plugins]="${HOME}/.config/nvim/lua/plugins"
     [zed-snippets]="${HOME}/.var/app/dev.zed.Zed/config/zed/snippets"
     [newsboat]="${HOME}/.newsboat"
+    [tmux]="${HOME}"
 )
 
 # Test if dictionaries set properly
@@ -44,8 +46,8 @@ fi
 # Set up symbolic links
 for key in ${!config_dict[@]}; do # Go through each key in the config directory
     if [[ -d "${config_dict[${key}]}" ]]; then # If directory and it exists
-        for rc in ${config_dict[${key}]}/*; do # For each file and directory in the config directory
-            if [ -f "${rc}" ]; then # Files only filter
+        for rc in ${config_dict[${key}]}/* ${config_dict[${key}]}/.*; do # For each file (including hidden files) and directory in the config directory
+            if [ -a "${rc}" ]; then # Files only filter (including hidden files)
                 mkdir -p ${destination_dict[${key}]} # Make the directory path for the program/application
                 ln -s ${rc} ${destination_dict[${key}]} # Link config file with path in program/application
             fi
